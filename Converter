@@ -1,0 +1,26 @@
+/** 
+*  Title:           Converter
+*  Semester:        COP3337 – Summer 2023 
+*  @author          Niv Aiges
+*   
+*  I affirm that this program is entirely my own work  
+*  and none of it is the work of any other person. 
+* 
+*  This program uses the mainFrame class to create a GUI
+*  In this GUI you have a couple of things to interact with. 
+*  2 combo boxes are used to select currencies 
+*  there is a text filed that you can input a money amount
+*  there is a button which calculates the currency exchange between each other
+*  for example 1 USD would equal 1.29 CAD and so on.
+*/ 
+import javax.swing.JFrame;
+
+public class Converter {
+
+public static void main(String[] args)
+{
+	JFrame frame = new mainFrame();
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setVisible(true);
+}
+}
